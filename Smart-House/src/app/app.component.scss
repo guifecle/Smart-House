@@ -1,0 +1,14 @@
+.conteudoBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.searchRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.search{
+    margin-left: 2rem;
+    align-self: flex-end;
+}

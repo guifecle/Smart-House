@@ -1,0 +1,26 @@
+.demo-card-wide.mdl-card {
+    width: 33%;
+    min-width: 300px;
+    margin: 1rem;
+}
+.demo-card-wide > .mdl-card__title {
+color: #fff;
+height: 150px;
+background: url('img/background_test.png') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+color: #fff;
+}
+.contentCards{
+    max-width: 80vw;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mdl-grid{
+    justify-content: center;
+    flex-wrap: wrap;
+}

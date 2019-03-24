@@ -1,6 +1,23 @@
-<div *ngFor="let comodo of comodos">
-    <div>Nome:</div>
-    <div>{{comodo.Nome}}</div>
-    <div>Ligar:</div>
-    <div>{{comodo.Ligado}}</div>
+<div  class="mdl-grid">
+  <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--6-col"  *ngFor="let comodo of comodos">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">{{comodo.Nome}}</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+      <h5>Light:</h5>
+      <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+        <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+        <span class="mdl-switch__label"></span>
+      </label>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+    </div>
+    <div class="mdl-card__menu">
+      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+        <i class="material-icons">share</i>
+      </button>
+    </div>
+  </div>
 </div>
+<script>
+</script>

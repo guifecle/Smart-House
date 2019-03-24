@@ -1,3 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-@import '../node_modules/material-design-lite/dist/material.min.css';
-@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin-top: 6vw;
+}
+.pag{
+    display: flex;
+    flex-direction: column;
+}
